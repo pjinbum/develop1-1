@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.menulist {
+  color: #fff;
+  font-weight: bold;
+  transition: all 400ms ease-in-out ;
+  cursor: pointer;
+}
+
+.menulist:hover {
+  font-size: 30px;
+}
