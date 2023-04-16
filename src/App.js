@@ -1,6 +1,7 @@
 
 import './App.css';
 import { useState , useEffect } from 'react';
+import Video from './Video';
 
 
 
@@ -23,7 +24,7 @@ function App() {
               menuList1.map((menu , index)=>{
                 return(
                   <li className='menulist' style={{margin:'0 20px'}} key={index} onClick={()=>{
-                    
+
                   }}>
                      <p>Menu{index}and{menu}</p>
                   </li>
@@ -34,6 +35,13 @@ function App() {
           </ul>
         </div>
       </div>
+      <div>
+      <Video></Video>
+      </div>
+      <div style={{width :'100vw' , height :'100px', backgroundColor :'yellowgreen'}}>
+
+      </div>
+      
     </div>
   );
 }
